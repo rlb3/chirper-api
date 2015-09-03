@@ -18,6 +18,6 @@
   },
   "production": {
     "use_env_variable": "DATABASE_URL",
-    "allow_origin": "https://rlb3-chirper-app.herokuapp.com/"
+    "allow_origin": "https://rlb3-chirper-app.herokuapp.com"
   }
 }
