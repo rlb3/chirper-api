@@ -1,7 +1,7 @@
 module.exports = function(req, res, next) {
   var db = require('../models');
 
-  db.sequelize.sync()
+  db.sequelize.sync({ force: true })
     .then(function(err) {
       req.models = db;
       next();
